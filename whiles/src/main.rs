@@ -7,7 +7,8 @@ fn main() {
     println!("LIFTOFF!!!");
 
     demo();
-    dmeo2();
+    demo2();
+    demo3();
 }
 
 fn demo(){
@@ -19,9 +20,16 @@ fn demo(){
     }
 }
 
-fn dmeo2(){
+fn demo2(){
     let a = [1,2,3,4,5];
     for element in a {
         println!("the value is: {element}");
     }
+}
+
+fn demo3(){
+    for number in (1..4).rev(){
+        println!("{number}");
+    }
+    println!("LIFTOFF!!!");
 }
